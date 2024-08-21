@@ -80,7 +80,7 @@ public class SecurityConfig {
         public CorsConfigurationSource corsConfigurationSource() {
                 CorsConfiguration configuration = new CorsConfiguration();
                 configuration.setAllowCredentials(true);
-                configuration.setAllowedOrigins(Arrays.asList("http://localhost:5173","https://f5-forking-around.github.io"));
+                configuration.setAllowedOrigins(Arrays.asList("http://localhost:5173","https://zootopia-forking-around.netlify.app/"));
                 configuration.addAllowedMethod("*");
                 configuration.addAllowedHeader("*");
                 configuration.addExposedHeader("Authorization");
